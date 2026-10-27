@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Daymark",
+    "slug": "daymark",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "icon": "./assets/daymark-logo.png",
+    "splash": {
+      "image": "./assets/daymark-splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F7F8FC"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.daymark.app"
+    },
+    "android": {
+      "package": "com.daymark.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/daymark-logo.png",
+        "backgroundColor": "#5865F2"
+      }
+    },
+    "plugins": [
+      "expo-sqlite",
+      "expo-notifications"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "d780b493-d6d9-48a5-b400-55c6f2193a27"
+      }
+    },
+    "owner": "vinit.siwach"
+  }
+}
