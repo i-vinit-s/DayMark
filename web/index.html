@@ -3,75 +3,57 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#f7f8fc" />
+    <meta name="theme-color" content="#090b12" />
     <meta name="description" content="Daymark is a private, offline-first tracker for routines, habits, and everyday progress." />
-    <title>Daymark — Small steps, clearly marked.</title>
+    <title>Daymark — Make today count.</title>
     <link rel="icon" href="./assets/daymark-logo.png" />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <header class="site-header shell">
-      <a class="brand" href="#top" aria-label="Daymark home">
-        <img src="./assets/daymark-logo.png" alt="" />
-        <span>Daymark</span>
-      </a>
-      <nav aria-label="Primary navigation">
-        <a href="#principles">Why Daymark</a>
-        <a href="#how-it-works">How it works</a>
-        <a class="nav-button" href="#download">Download</a>
-      </nav>
-    </header>
-
-    <main id="top">
+    <main>
       <section class="hero shell">
         <div class="hero-copy">
-          <p class="eyebrow">A private daily tracker</p>
-          <h1>Keep the small promises that make up a good day.</h1>
-          <p class="hero-lede">Daymark gives routines, habits, and personal goals a calm place to live — offline, on your device, and without an account.</p>
-          <div class="hero-actions">
-            <a class="button button-primary" href="#download">Get Daymark</a>
-            <a class="text-link" href="#how-it-works">See how it works <span aria-hidden="true">→</span></a>
-          </div>
-          <p class="microcopy">Android first · local-first by design</p>
+          <a class="brand" href="#top" aria-label="Daymark home"><img src="./assets/daymark-logo.png" alt="" /><span>Daymark</span></a>
+          <p class="eyebrow">Offline habit tracking</p>
+          <h1>Make today count.<br /><em>Quietly.</em></h1>
+          <p class="hero-lede">A private place for the routines you want to keep. No account. No feed. Just a clear view of what matters today.</p>
+          <div class="hero-actions"><a class="button button-primary" href="./daymark.apk" download>Download for Android <span aria-hidden="true">&rarr;</span></a><span class="microcopy">Local-first &middot; Android first</span></div>
         </div>
-        <div class="phone-stage" aria-label="Daymark app preview">
+        <div class="hero-visual" aria-label="Daymark app preview">
+          <div class="visual-glow"></div><span class="orbit orbit-a"></span><span class="orbit orbit-b"></span>
+          <span class="floating-label label-private">PRIVATE<br /><b>BY DEFAULT</b></span><span class="floating-label label-progress">TODAY<br /><b>60% COMPLETE</b></span>
           <div class="phone">
             <div class="phone-top"><span>Daymark</span><span class="date-pill">OCT 28</span></div>
-            <div class="progress-card"><span>Today’s progress</span><strong>3<span>/5</span></strong><small>60% complete</small></div>
+            <div class="progress-card"><span>Today's progress</span><strong>3<span>/5</span></strong><small>Two more small wins.</small><div class="progress-line"><i></i></div></div>
             <p class="phone-label">Your items</p>
-            <div class="task is-done"><span class="check">✓</span><span>Read for 20 minutes</span><b>›</b></div>
-            <div class="task is-done"><span class="check">✓</span><span>Walk outside</span><b>›</b></div>
-            <div class="task"><span class="check"></span><span>Practice Spanish</span><b>›</b></div>
-            <div class="task"><span class="check"></span><span>Drink 8 glasses</span><b>›</b></div>
+            <div class="task is-done"><span class="check">&#10003;</span><span>Read for 20 minutes</span><b>&rsaquo;</b></div>
+            <div class="task is-done"><span class="check">&#10003;</span><span>Walk outside</span><b>&rsaquo;</b></div>
+            <div class="task"><span class="check"></span><span>Practice Spanish</span><b>&rsaquo;</b></div>
+            <div class="task"><span class="check"></span><span>Drink 8 glasses</span><b>&rsaquo;</b></div>
             <div class="phone-nav"><span class="active">Today</span><span>Reports</span><span>Items</span><span>Settings</span></div>
           </div>
         </div>
       </section>
 
-      <section class="principles shell" id="principles">
-        <div class="section-intro"><p class="eyebrow">Built for real life</p><h2>Less noise. More follow-through.</h2></div>
-        <div class="principle-grid">
-          <article><span class="number">01</span><h3>Private by default</h3><p>Your core tracking data stays on your device. No account is needed to check in or see your history.</p></article>
-          <article><span class="number">02</span><h3>Flexible enough</h3><p>Track a simple completion, a quantity, or a duration. Use daily, weekday, or selected-day schedules.</p></article>
-          <article><span class="number">03</span><h3>Useful over time</h3><p>Reports turn a string of small check-ins into clear patterns, without turning your life into a dashboard.</p></article>
-        </div>
+      <section class="signal shell" id="top">
+        <div><span class="signal-mark">01</span><strong>Private by design</strong><p>Your core tracking data stays on your device.</p></div>
+        <div><span class="signal-mark">02</span><strong>Flexible by nature</strong><p>Done, quantity, duration, or custom days.</p></div>
+        <div><span class="signal-mark">03</span><strong>Useful over time</strong><p>Reports that show patterns, not pressure.</p></div>
       </section>
 
-      <section class="how shell" id="how-it-works">
-        <div class="how-copy"><p class="eyebrow">A simple rhythm</p><h2>Mark it. Notice it. Keep going.</h2><p>Daymark is designed around the moment you actually use it: a quick check-in today, followed by a useful look back when you need one.</p></div>
-        <ol class="steps">
-          <li><span>01</span><div><h3>Choose what matters</h3><p>Create an item with a schedule, target, color, and category.</p></div></li>
-          <li><span>02</span><div><h3>Make today visible</h3><p>Complete an item or record progress directly from the Today screen.</p></div></li>
-          <li><span>03</span><div><h3>Look back without judgment</h3><p>Use reports, heatmaps, streaks, and notes to see what is actually working.</p></div></li>
-        </ol>
+      <section class="story shell">
+        <div class="story-heading"><p class="eyebrow">A simpler rhythm</p><h2>Keep the promise.<br /><span>Notice the pattern.</span></h2></div>
+        <div class="story-copy"><p>Daymark is built for the moment between intention and action. Mark a thing complete, record a little progress, and get on with your day.</p><p class="muted">When you look back, the app gives you enough detail to learn without turning your life into a spreadsheet.</p></div>
       </section>
 
-      <section class="download shell" id="download">
-        <div><p class="eyebrow">Ready when you are</p><h2>Make the next small step easier to find.</h2><p>Download the Android build and keep your tracker close. The app works offline, with local reminders available in a development or release build.</p></div>
-        <div class="download-card"><img src="./assets/daymark-logo.png" alt="Daymark logo" /><div><strong>Daymark for Android</strong><span>Signed APK download</span></div><a class="button button-light" href="./daymark.apk" download>Download APK</a><small>Place the signed <code>daymark.apk</code> file in this folder before publishing.</small></div>
+      <section class="features shell">
+        <article><span class="feature-number">01</span><h3>Today, without friction</h3><p>See scheduled items, targets, notes, and progress in one focused view.</p></article>
+        <article><span class="feature-number">02</span><h3>History with context</h3><p>Heatmaps, streaks, and reports help you understand consistency over time.</p></article>
+        <article><span class="feature-number">03</span><h3>Yours, offline</h3><p>SQLite keeps the core experience available even when the network is not.</p></article>
       </section>
+
+      <section class="final-cta shell" id="download"><div><p class="eyebrow">Start with one thing</p><h2>Small steps.<br /><span>Clearly marked.</span></h2></div><div class="cta-side"><p>Download Daymark for Android and give the next good decision a place to land.</p><a class="button button-primary" href="./daymark.apk" download>Get Daymark <span aria-hidden="true">&rarr;</span></a><small>Place the signed <code>daymark.apk</code> file in this folder before publishing.</small></div></section>
     </main>
-
-    <footer class="site-footer shell"><span>© 2026 Daymark</span><span>Small steps, clearly marked.</span></footer>
+    <footer class="site-footer shell"><span>&copy; 2026 Daymark</span><span>Made for the everyday.</span></footer>
   </body>
 </html>
